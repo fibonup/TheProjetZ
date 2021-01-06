@@ -1,0 +1,595 @@
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(254,190,5);
+	--MatiereCouleur: rgb(231,172,0);
+}
+
+
+
+/*_____________________________________________________________________________________________________________________________________*/
+
+
+#Cadre_intro
+{
+	height: 600px;
+	background-color: white;
+	color:  white;
+	font-family:  Trebuchet MS, sans-serif;
+	background-image: url("https://raw.githubusercontent.com/Jean-Marc17/Projet_Z/master/PZ%20S%20Dossier/PZ%20IMAGES/spain-4719896_1280.jpg"); /* coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
+	background-attachment:fixed;
+	background-size: 100% ;
+	background-position: center;
+}
+
+
+
+
+
+#Metodología
+{
+	background-color: rgb(222,88,51);
+	padding-bottom: 100px;
+}
+
+
+#TitrePARTIES
+{
+	text-align: center;
+	/* height: 100px; */
+	border-bottom: 5px white dotted;
+	color: white;
+	margin-bottom: 50px;
+	font-style: italic; 
+	font-family: Andale Mono, monospace;
+	font-variant: small-caps;
+    font-size: 40px;
+	padding: 50px;
+	font-weight: bold;
+}
+
+
+
+#BlocMetodología
+{
+	display: flex;
+	margin: 30px auto;
+	padding: 30px 50px;
+	width: 70%;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+#BlocMetodología:hover
+{
+    transform: scale(1.02);
+	box-shadow: inset 0 0 1em transparent, 0 0 2em  rgb(152,53,24);
+	transition: 200ms;
+}
+
+#ImageMetodología
+{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(222,88,51);
+	background-image: url("../../PZ IMAGES/méthodologie.png")
+}
+
+#TexteMetodología
+{
+	width: 50%;
+	margin-left: 50px;
+	padding: 10px;
+	font-family: Trebuchet MS;
+	color: rgb(222,88,51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Lecturas
+{
+	background-color: rgb(254,190,5);
+	padding-bottom: 100px;
+
+}
+
+
+
+#BlocLecturas
+{
+	background-color: red;
+}
+
+
+
+
+#formulaire_ZAP, #formulaire_CAB
+{
+    width: 80%;
+    margin: auto 50px;
+	display: flex;
+	align-items: center;
+    background-color: white;
+    padding: 20px;
+	cursor: pointer;
+    transition: 300ms;
+
+}
+
+
+
+#formulaire_ZAP
+{
+	justify-content: right;
+    border-radius: 0px 250px 250px 250px ;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+
+#formulaire_CAB
+{
+	justify-content: left;
+	border-radius: 250px 0px 250px 250px ;
+    margin-left: auto;
+} 
+
+
+	
+
+#formulaire_ZAP:hover
+{
+	background-color: white;
+    transition: 300ms;
+    transform: translate(50px,0px) scale(1.05); 
+}
+
+
+#formulaire_ZAP:hover > #ImageZAP
+{
+    transition: 500ms;
+    transform: translate(-20px,0px) ; 
+	box-shadow: 8px 5px 10px  rgb(230, 230, 230);
+}
+
+
+#formulaire_ZAP:hover > #TitreZAP
+{
+    transition: 400ms;
+    transform: translate(-20px,0px); 
+}
+
+#formulaire_CAB:hover
+{
+	background-color: white;
+	box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(200,200,200);
+    transition: 300ms;
+    transform: translate(-50px,0px) scale(1.05); 
+} 
+
+
+#formulaire_CAB:hover > #ImageCAB
+{
+    transition: 500ms;
+    transform: translate(20px,0px) ; 
+	box-shadow: -8px 5px 10px  rgb(230, 230, 230);
+}
+
+
+#formulaire_CAB:hover > #TitreCAB
+{
+    transition: 400ms;
+    transform: translate(20px,0px); 
+}
+
+
+
+#ImageZAP, #ImageCAB
+{
+	height: 220px;
+	width: 440px;
+	border-radius: 250px ;
+	border: rgb(254,190,5) 6px solid;
+    background-size: cover;
+    transition: 400ms;
+    
+}
+
+
+#ImageZAP
+{
+	background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/Zapatera_2.png?raw=true");
+}
+
+
+#ImageCAB
+{
+	background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/cabeza_del_dragon.png?raw=true");
+}
+
+
+
+#TitreZAP, #TitreCAB
+{
+	text-align: right;
+	font-style: italic;
+	font-family: Trebuchet MS, sans-serif /*Andale Mono, monospace*/;
+	height: 160px;
+    padding: 0px 70px;
+	margin: 0px 70px;
+    transition: 400ms;
+}
+
+
+
+
+#TitreZAP
+{
+	color: rgb(254,190,5);
+    margin-left: auto;
+	border-right: rgb(254,190,5) 5px solid;
+}
+
+
+
+#TitreCAB
+{
+    color: rgb(254,190,5);
+	border-left: rgb(254,190,5) 5px solid;
+    
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Cadre_conjugaison
+{
+	height: 800px;
+	background-color: rgb(81,208,215);
+	color: white;
+	font-variant: small-caps;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+#CadreParties
+{
+	justify-content: space-around;
+	display: flex;
+}
+
+
+#LienConjugaison
+{
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	border-radius: 80px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+
+#LienConjugaison:hover
+{
+    transform: rotateZ(5deg) scale(1.05);
+    transition: 200ms;
+}
+
+
+#TitrePartiesConjugaison
+{
+	margin: auto;
+	text-align: center;
+	color: orange;
+	height: 50px;
+	width: auto;
+    padding: 20px;
+	font-weight: bold;
+	border-bottom: 7px rgb(81,208,215) double;
+	font-size: 30px;
+}
+
+
+#Intérieur
+{
+	color: rgb(81,208,215);
+
+	padding: 0px 10px;
+	font-size: 22px;	
+	
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	font-variant: none;
+	width: 70%;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@media (max-width: 1100px)
+{
+  
+#Cadre_intro
+{
+	height: 600px;
+	background-color: white;
+	color:  white;
+	font-family:  Trebuchet MS, sans-serif;
+	/*background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg");  coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
+	background-attachment:fixed;
+	background-size: 150% ;
+	background-position-y: 0px;
+}
+
+
+
+
+
+#TitrePARTIES
+{
+	/* height: 100px; */
+	border-bottom: 10px white dotted;
+	color: white;
+	margin-bottom: 100px;
+	font-style: italic; 
+	font-family: Andale Mono, monospace;
+	font-variant: small-caps;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+
+#Metodología
+{
+	background-color: rgb(222,88,51);
+	padding-bottom: 100px;
+}
+
+
+
+#BlocMetodología
+{
+	display: flex;
+	margin: 30px auto;
+	padding: 30px 50px;
+	width: 70%;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+#BlocMetodología:hover
+{
+    transform: scale(1.02);
+	box-shadow: inset 0 0 1em transparent, 0 0 2em  rgb(152,53,24);
+	transition: 200ms;
+}
+
+#ImageMetodología
+{
+	height: 200px;
+	width: 200px;
+	background-color: rgb(222,88,51);
+	background-size: 100%;
+}
+
+#TexteMetodología
+{
+    font-size: 30px;
+	width: 65%;
+	margin-left: 50px;
+	padding: 10px;
+	font-family: Trebuchet MS;
+	color: rgb(222,88,51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Lecturas
+{
+	background-color: rgb(254,190,5);
+	padding-bottom: 200px;
+
+}
+
+
+
+
+
+#formulaire_ZAP, #formulaire_CAB
+{
+    width: auto;
+    margin: auto 50px;
+	display: block;
+	align-items: center;
+    background-color: white;
+    padding: 20px;
+	cursor: pointer;
+    transition: 300ms;
+    /* justify-content: center; */
+    border-radius: 0px;
+}
+
+
+
+#formulaire_ZAP
+{
+    border-radius: 0px 250px 250px 250px ;
+    margin-bottom: 50px;
+}
+
+
+#formulaire_CAB
+{
+	/* border-radius: 250px 250px 0px 250px ; */
+
+	border-radius: 250px 0px 250px 250px ;
+} 
+
+
+	
+
+#ImageZAP, #ImageCAB
+{
+	height: 330px;
+	width: 660px;
+	border-radius: 250px ;
+	border: rgb(254,190,5) 8px solid;
+    background-size: cover;
+    margin: auto;
+}
+
+
+#ImageZAP
+{
+	/* background-image: url("../../PZ IMAGES/Zapatera_2.png"); */
+}
+
+
+#ImageCAB
+{
+	/* background-image: url("../../PZ IMAGES/cabeza_del_dragon.png"); */
+}
+
+
+
+#TitreZAP, #TitreCAB
+{
+    /* background-color: tomato; */
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    padding: 20px;
+	margin: auto;
+}
+
+
+
+#TitreZAP
+{
+	border: none;
+}
+
+
+
+#TitreCAB
+{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Cadre_conjugaison
+{
+	height: auto;
+	background-color: rgb(81,208,215);
+	color: white;
+	font-variant: small-caps;
+    font-family: Trebuchet MS, sans-serif;
+    padding-bottom: 50px;
+}
+
+#CadreParties
+{
+    /* background-color: tomato; */
+	display: block;
+}
+
+
+#LienConjugaison
+{
+    height: 450px;
+	width: 750px;
+    border-radius: 120px;
+    margin: 150px auto;
+}
+
+
+
+
+#TitrePartiesConjugaison
+{
+    font-size: 50px;
+    padding: 40px;
+    width: auto;
+}
+
+
+#Intérieur
+{
+	color: rgb(81,208,215);
+	font-size: 40px;	
+	margin-top: 60px;
+}
+
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(216,118,13);
+	--MatiereCouleur: rgb(216,118,13);
+}
+
+#image_tema1
+{
+	background-image: url("../../PZ IMAGES/JC.png");
+}
+
+
+#image_tema2
+{
+	background-image: url("../../PZ IMAGES/GF.png");
+}
+
+
+
+
+

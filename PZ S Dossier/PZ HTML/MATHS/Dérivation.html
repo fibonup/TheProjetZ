@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet Z</title>
+
+	
+
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="../../PZ CSS/MATHS/Dérivation.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="../../PZ JS/Dérivation.js"></script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../../PZ IMAGES/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../PZ IMAGES/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../PZ IMAGES/favicon-16x16.png">
+	<link rel="manifest" href="../../PZ IMAGES/site.webmanifest">
+
+</head>
+<body>
+	
+
+
+	<div id="bandeau">
+		<div id="boite-logo">
+		
+			<button id="logo"> <h1> Z </h1> </button>
+
+		</div>
+
+		<div id="BlocMatire">
+
+
+			<div id="document_2">
+
+				<div id="ijh">
+
+					<div onclick="window.open(this.href='../../PZ PDF/fiche-dérivabilité.pdf'); return false;" ; class="Contenu_Complémentaire"></div>
+					
+					<div onclick="window.open(this.href='../../PZ PDF/Dérivation-converti.pdf'); return false;" ; class="Imprimante"></div>
+					
+					<div onclick="location.href='../../../Projet Z.html'" ; class="leMenu"></div>
+				</div>
+
+			</div>
+
+			<div onclick="location.href='Spe_Maths.html'" ; id="Matière">
+				<h2> Mathématiques </h2>
+
+			</div>
+		
+
+
+		</div>
+
+			
+
+	</div>
+
+
+	<!-- <br />
+	<br />
+	<br />
+	<br />
+	
+
+
+	<div id="préambule">
+		
+			
+			<h2>Bienvenue dans le <strong>Projet Z</strong></h2>
+			Cet emplacement est réserver: on pourra y mettre des explications, présentation. 
+						
+
+	</div> -->
+	
+
+	<!-- <br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br /> -->
+		
+	<div id="Theme">
+
+		<h2>Thème 4 - La Dérivation</h2>
+		
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+		<!-- <div id="Prob">
+
+			<h2>Problématique : Comment l'énergie solaire qui nous parvient est-elle produite?</h2>
+			
+		</div> -->
+
+		
+
+	<br />	
+
+
+	<div id="feuille_cours">
+
+		<div id="boite_titre_0">
+
+			
+
+
+
+		<div class="titre">
+			<h3>I - Nombre dérivé et tangente </h3>
+		</div>
+			<button id="afficheMasque_0">+</button>
+		</div>
+		<div id="text_0">
+
+   	 		<br />
+
+
+
+   	 		<div class="lim"> <span>lim</span><!-- <span class="symbol"></span> --><span class="bottom"><i>h→0</i></span></div>
+
+
+
+   	 		Soit une fonction f définie sur R, on trace sa courbe représentative Cf ; a est une abscisse d’un des points de la courbe que l’on appellera A. 
+   	 		<br />
+   	 		<br />
+			Soit un réel h on écrit a + h avec h non nul qui correspond à l’abscisse d’un autre point de la courbe que l’on appellera H
+			<br />
+   	 		<br />
+
+   	 		<div id="Définition">
+				Définition :
+				<div id="Formule">
+					τ(h) = <div class="frac"> <span>f (a + h) – f(a)</span><span class="symbol">/</span><span class="bottom">h</span></div>
+				</div>
+				<br />
+   	 			<br />
+   	 			Le nombre τ(h) = <div class="frac"> <span>f (a + h) – f(a)</span><span class="symbol">/</span><span class="bottom">h</span></div> est appelé le « taux de variation » de la fonction f entre a et a+h. Ce nombre est aussi le coefficient directeur de la droite passant par A et H.
+
+   	 			<div class="Image_1">
+					<img src="../../PZ IMAGES/Dérivation_1.png" alt="" />
+				</div>
+			
+			</div>
+
+			<br />
+   	 		<br />
+
+			Lorsque h prend des valeurs proche de 0 si τ (h) tend vers un nombre réel on dit que la fonction f est dérivable en a. Ce nombre réel est le nombre dérivé notée f’(a) 
+			<br />
+   	 		<br />
+   	 		On écrit alors : 
+
+   	 		<div id="Formule">
+   	 			<div class="lim"> <span>lim</span><!-- <span class="symbol"></span> --><span class="bottom"><i>h→0</i></span></div><div class="frac"> <span>f (a + h) – f(a)</span><span class="symbol">/</span><span class="bottom">h</span></div>
+   	 		</div>
+
+   	 		<br />
+   	 		<br />
+
+   	 		<div id="Exemple">
+   	 			
+   	 			Exemple : on une fonction f définie sur R par f(x) = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div>x + 1 , un point A d’abscisse 3 et un point H d’abscisse 3+h  on veut obtenir le nombre dérivé f’(3) 
+
+   	 			<br />
+   	 			<br />
+
+				f(3) = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div> × 3 + 1 = 0
+
+				<br />
+   	 			<br />
+
+				f (3 + h) = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div> (3 + h) + 1 = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div> × 3 <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div> × h + 1 = -h/3
+
+				<br />
+   	 			<br />
+
+				τ(h) = <div class="frac"> <span>f(3 + h) - f(3)</span><span class="symbol">/</span><span class="bottom">h</span></div> = <div class="frac"> <span><div class="frac"> <span>-h</span><span class="symbol">/</span><span class="bottom">3</span></div> - 0</span><span class="symbol">/</span><span class="bottom">h</span></div> = <div class="frac"> <span><div class="frac"> <span>-h</span><span class="symbol">/</span><span class="bottom">3</span></div></span><span class="symbol">/</span><span class="bottom">h</span></div> (les h s’annulent)  = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div>
+				donc <div class="lim"> <span>lim</span><!-- <span class="symbol"></span> --><span class="bottom"><i>h→0</i></span></div>τ (h)= <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div>  donc f’(3) = <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div>
+
+   	 			
+			</div>
+
+			<!-- <div class="frac"> <span>-1</span><span class="symbol">/</span><span class="bottom">3</span></div>
+			<br />
+   	 			<br />
+			τ(h) = <div class="frac"> <span>f(3 + h) - f(3)</span><span class="symbol">/</span><span class="bottom">h</span></div>
+				
+			<br />
+   	 			<br />
+			τ(h) = <div class="frac"> <span><div class="frac"> <span>-h</span><span class="symbol">/</span><span class="bottom">3</span></div> - 0</span><span class="symbol">/</span><span class="bottom">h</span></div>
+				<br />
+   	 			<br />
+			τ(h) = <div class="frac"> <span><div class="frac"> <span>-h</span><span class="symbol">/</span><span class="bottom">3</span></div></span><span class="symbol">/</span><span class="bottom">h</span></div>
+ -->
+
+   	
+
+
+
+		</div>
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>II - Tangente à une courbe </h3>
+		</div>
+			<button id="afficheMasque_1">+</button>
+		</div>
+		<div id="text_1">
+
+			<br />	
+   	 		
+			
+			On a une représentation graphique d’une fonction f : Cf avec sur cette courbe un point A d’abscisse a, on appelle T la droite passant par A et tangente à Cf (cette droite ne passe que par un seul point de Cf : A)Le nombre dérivée f’(a) est en fait le coefficient directeur de cette tangente.
+
+			<br />
+    		<br />
+
+			<div class="Image_2">
+				<img src="../../PZ IMAGES/Dérivation_2.png" alt="" />
+			</div>
+
+			<br />
+    		<br />
+
+			Si on connait a , f(a) et f’(a) on est en mesure de trouver l’équation de cette tangente par la formule suivante :
+
+			<br />
+    		<br />
+
+			<div id="Formule">
+				y = f’(a) (x - a) + f(a)
+			</div>
+
+			<br />
+    		<br />
+
+			<div id="Exemple">
+				Exemple :
+
+				<br />
+
+				soit f une fonction dérivable en a, je connait a = 10  f(10) = 12  et f’(10) = 5 je cherche l’équation de la tangente T à Cf passant par A d’abscisse a : 
+
+				<br />
+    			<br />
+
+				y = 5 (x – 10) + 12 = 5x -15 +12  donc y = 5x – 3 il s’agit de l’équation de T
+			</div>
+
+		</div>
+
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>III - Fonctions dérivés </h3>
+		</div>
+			<button id="afficheMasque_2">+</button>
+		</div>
+		<div id="text_2">
+
+			<br />	
+   	 		
+			<div id="Définition">
+				Définition :
+
+				<br />	
+				<br />	
+
+				Soit une fonction f dérivable pour tout nombre réel a dans un intervalle I. 
+				<br />	
+				La fonction dérivée de f est la fonction qui permet de trouver f’ (a) à partir de tout réel a de l’intervalle I, on la note f’.
+				<br />	
+				Les principales fonctions et leurs fonctions dérivés :
+
+				<br />	
+				<br />	
+				
+				<div class="Image_3">
+					<img src="../../PZ IMAGES/Dérivation_3.png" alt="" />
+				</div>
+
+				<br />	
+				<br />	
+
+				L’intervalle de dérivabilité correspond à l’intervalle I dans lequel on peut dériver n’importe quel a.
+				<br />	
+				n dans le tableau est un nombre entier .
+				<br />	
+				Pour l’intervalle de dérivabilité de f(x) = <div class="frac"> <span>1</span><span class="symbol">/</span><span class="bottom">x</span></div>  et de f(x) = <div class="frac"> <span>1</span><span class="symbol">/</span><span class="bottom">x<sup>n</sup></span></div> on peut dire qu’il s’agit de tout les réel sauf O, 
+				<br />on peut le noter R / {0}  ( / = sauf).
+				<br />	<br />
+				Rajout : soit g une fonction, f une autre fonction :  f(x) = g(ax+b).
+				<br /><br />	
+				La fonction dérivée de f :  f’(x) = a × g’ (ax + b)  avec g’ la fonction dérivée de g.
+
+
+			</div>
+
+			<div class="frac"> <span>1</span><span class="symbol">/</span><span class="bottom">x<sup>n</sup></span></div>
+
+
+		</div>
+
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>IV - Opération avec les fonctions dérivées </h3>
+		</div>
+			<button id="afficheMasque_3">+</button>
+		</div>
+		<div id="text_3">
+
+			<br />	
+   	 		
+			<div class="Image_4">
+				<img src="../../PZ IMAGES/Dérivation_4.png" alt="" />
+			</div>
+
+			<br />
+			<br />
+
+
+			u et v sont deux fonctions différentes , k est une constante. u’ est la fonction dérivée de u et v’ la fonction dérivée de v.
+		</div>
+
+		<br />
+    	<br />
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>V - Applications de la dérivation </h3>
+		</div>
+			<button id="afficheMasque_4">+</button>
+		</div>
+		<div id="text_4">
+
+			<br />	
+   	 		
+			<div class="Bleu"><strong>1 - Sens de variation d’une fonction :</strong></div>
+			
+			<br />	
+
+			Attention : pour cette partie ne pas confondre le signe et le sens de variation d’une fonction, une fonction peut très bien être négative tout en étant croissante ou positive en étant décroissante.
+
+			<br />	
+			<br />	
+
+			Soient f une fonction et f’ sa dérivée :
+
+			<br />	
+			<br />	
+
+			Si f’ est négative sur un intervalle I alors f sera décroissante sur I
+
+			<br />	
+			<br />	
+
+			Si f’ est positive sur I alors f sera croissante sur I
+
+			<br />	
+			<br />	
+
+			Si f’ est nulle sur I alors f est constante sur I
+
+			<br />	
+			<br />	
+
+			<div class="Bleu"><strong>2 - Un extremum local :</strong></div>
+
+			<br />	
+
+			<div id="Définition">
+				Définition:
+				<br />	
+				Un extremum est soit un minimum soit un maximum pour une fonction : lorsqu’un énoncé demande de trouver un extremum local (ou au voisinage) d’un point c on cherche un maximum ou un minimum autour de c.
+				<br />
+				On reconnait un extremum lorsque la variation d’une fonction change : la fonction était croissante, elle devient décroissante et inversement.
+
+				<br />	
+				<br />
+
+				<div class="Image_5">
+					<img src="../../PZ IMAGES/Dérivation_5.png" alt="" />
+				</div>
+
+				<br />	
+				<br />
+
+				L’intervalle J correspond au voisinage du point c. On voit que la fonction est croissante puis devient décroissante au point d’abscisse x<sub>0</sub>, on peut dire qu’au niveau de ce point f’(x<sub>0</sub>) = 0
+			</div>
+		</div>
+
+
+		
+    			
+		        
+						
+	</div>
+
+
+
+		<br />
+	<br />
+
+
+
+
+
+
+	<br />
+	<br />
+	<br />
+	<br />			
+	<br />
+	<br />
+	<br />
+	<br />	
+		
+
+
+
+	<footer>
+		<div id="footer">
+			<div class="P"><h4><a href="https://youtu.be/2yuvDpr6beU"><lit>PZ & co</a></h4></div>
+		
+			<div class="P"><h4><a href="https://www.instagram.com/picardo.el.playmobil/?hl=en"><lit>En partenariat avec TECHnip & Picard Corporation</a></h4></div>
+
+			<div class="P"><h4><a href="https://youtu.be/HszKDyzR--g"><lit>Chinois i vol pa chinois</a></h4></div>
+	</footer>
+	
+</body>
+</html>

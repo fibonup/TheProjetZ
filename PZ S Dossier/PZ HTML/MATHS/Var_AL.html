@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet Z</title>
+
+	
+
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="../../PZ CSS/MATHS/Var_AL.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="../../PZ JS/Var_AL.js"></script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../../PZ IMAGES/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../../PZ IMAGES/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../PZ IMAGES/favicon-16x16.png">
+	<link rel="manifest" href="../../PZ IMAGES/site.webmanifest">
+
+</head>
+<body>
+	
+
+
+	<div id="bandeau">
+		<div id="boite-logo">
+		
+			<button id="logo"> <h1> Z </h1> </button>
+
+		</div>
+
+		<div id="BlocMatire">
+
+
+			<div id="document_2">
+
+				<div id="ijh">
+
+					<div onclick="window.open(this.href='../../PZ PDF/Variables aléatoires réelles.pdf'); return false;" ; class="Imprimante"></div>
+					
+					<div onclick="location.href='../../../Projet Z.html'" ; class="leMenu"></div>
+				</div>
+
+			</div>
+
+			<div onclick="location.href='Spe_Maths.html'" ; id="Matière">
+				<h2> Mathématiques </h2>
+
+			</div>
+		
+
+
+		</div>
+
+			
+
+	</div>
+
+
+	<!-- <br />
+	<br />
+	<br />
+	<br />
+	
+
+
+	<div id="préambule">
+		
+			
+			<h2>Bienvenue dans le <strong>Projet Z</strong></h2>
+			Cet emplacement est réserver: on pourra y mettre des explications, présentation. 
+						
+
+	</div> -->
+	
+
+	<!-- <br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br /> -->
+		
+	<div id="Theme">
+
+		<h2>Thème 7 - Les Variable Aléatoires</h2>
+		
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+		<!-- <div id="Prob">
+
+			<h2>Problématique : Comment l'énergie solaire qui nous parvient est-elle produite?</h2>
+			
+		</div> -->
+
+		
+
+	<br />	
+
+
+	<div id="feuille_cours">
+
+		<div id="boite_titre_0">
+
+			
+
+
+
+		<div class="titre">
+			<h3>I - Notion de variable aléatoire  </h3>
+		</div>
+			<button id="afficheMasque_0">+</button>
+		</div>
+		<div id="text_0">
+
+   	 		<br />
+
+
+   	 		<div id="Définition">
+
+
+
+   	 		Définition :
+   	 		<br />
+   	 		<br />
+			Soit un univers Ω, <u>une variable aléatoire est une fonction définie sur Ω</u>
+			<br />
+			<br />
+
+			Soit X une variable aléatoire et x un réel :
+
+			<div id="tab">
+				L’évènement « X prend la valeur de x » correspond à l’ensemble des issues dans l’univers Ω ou x apparait.
+				<br />L’évènement « X prend des valeurssupérieures ou égales à x » correspond à l’ensemble des issues dans l’univers Ω ou un réel supérieur ou égal à x apparait 
+				<br />L’évènement « X prend des valeurs inférieures ou égales à x » correspond à l’ensemble des issues dans l’univers Ω ou un réel inférieures ou égal à x apparait 
+			</div>
+
+			</div>
+
+			<br />
+			<br />
+
+
+			<div id="Exemple">
+					Exemple :
+					<br />
+					<br />
+					On lance un dé à six faces. Si on obtient un multiple de 3, on gagne 2 € ; sinon, on perd 1 €. X est la variable aléatoire qui à chaque lancer associe le gain obtenu (ce gain peut éventuellement être négatif).
+					<br />
+					{X=2} est réalisé lorsque l’on obtient un multiple de 3.
+					<br />
+					{X⩽0} est réalisé lorsque le gain est négatif (lorsque l’on n’obtient pas un multiple de 3).
+			</div>
+
+
+			<br />
+	
+
+
+
+		</div>
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>II - Loi de probabilité d’une variable aléatoire  </h3>
+		</div>
+			<button id="afficheMasque_1">+</button>
+		</div>
+		<div id="text_1">
+
+			<br />	
+   	 		
+
+			Soit X une variable aléatoire. La loi de probabilité de la variable aléatoire se présente sous forme de tableau on y associe pour chaque valeur réelle xi la probabilité que la variable X prennent sa valeur, la probabilité que X = xi
+			
+			<br />	
+   	 		<br />	
+   	 		
+			<div class="Image_1">
+				<img src="../../PZ IMAGES/Var_AL_1.png" alt="" />
+			</div>
+
+
+		</div>
+
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>III - L’espérance d’une variable aléatoire </h3>
+		</div>
+			<button id="afficheMasque_2">+</button>
+		</div>
+		<div id="text_2">
+
+			<br />	
+   	 		<br />	
+
+
+
+			L’espérance de X peut être considérée comme une moyenne elle est notée E (X) on peut la traduire par : En moyenne la variable X va prendre la valeur E (X)
+
+			<br />	
+			<br />
+
+			<div id="Formule">
+				E (X) = p<sub>1</sub> × x<sub>1</sub> + p<sub>2</sub> × x<sub>2</sub> + … + p<sub>r</sub> × x<sub>r</sub>
+			</div>
+
+			<br />	
+			<br />	
+
+			Si on doit calculer E (aX + b ) avec a et b deux réel cela revient à faire 
+
+			<br />	
+			<br />
+
+			<div id="Formule">
+					a × E(X) + b
+			</div>
+
+
+
+
+
+
+
+
+			
+		</div>
+
+
+		<br />
+    	<br />
+
+
+		<div id="boite_titre_0">
+		<div class="titre">
+			<h3>IV - Variance et écart type  </h3>
+		</div>
+			<button id="afficheMasque_3">+</button>
+		</div>
+		<div id="text_3">
+
+			<br />	
+   	 		
+   	 		<div class="Bleu"><strong>1 - La variance :</strong></div>
+
+   	 		<br />	
+   	 		<br />	
+			La variance de X est notée Var (X) 
+
+			<br />	
+			<br />	
+
+			<div id="Formule">
+			Var (X) = p<sub>1</sub> (x<sub>1</sub> – E(X)<sup>2</sup> + p<sub>2</sub> (x<sub>2</sub> – E(X)<sup>2</sup> + … + p<sub>r</sub> (x<sub>r</sub> – E(X)<sup>2</sup>
+			</div>
+
+			<br />	
+			<br />	
+
+			Si on doit calculer Var (aX + b ) avec a et b deux réel cela revient à faire a<sup>2</sup> × Var (X)
+
+			<br />	
+			<br />	
+
+			<div class="Bleu"><strong>2 - L’écart-type :</strong></div>
+			
+			<br />	
+			<br />	
+
+			L’écart-type de X est notée σ (X)
+
+			<br />
+    		<br />
+
+			<div id="Formule">
+					σ = √(Var (X))
+			</div>
+
+			<br />	
+			<br />	
+
+			<!-- <span class="racine_carrée">Var (X)</span> -->
+
+
+
+		</div>
+
+		<br />
+    	<br />
+
+		
+		
+
+
+    			
+		        
+						
+	</div>
+
+
+
+		<br />
+	<br />
+
+
+
+
+
+
+	<br />
+	<br />
+	<br />
+	<br />			
+	<br />
+	<br />
+	<br />
+	<br />	
+		
+
+
+
+	<footer>
+		<div id="footer">
+			<div class="P"><h4><a href="https://youtu.be/2yuvDpr6beU"><lit>PZ & co</a></h4></div>
+		
+			<div class="P"><h4><a href="https://www.instagram.com/picardo.el.playmobil/?hl=en"><lit>En partenariat avec TECHnip & Picard Corporation</a></h4></div>
+
+			<div class="P"><h4><a href="https://youtu.be/HszKDyzR--g"><lit>Chinois i vol pa chinois</a></h4></div>
+	</footer>
+	
+</body>
+</html>

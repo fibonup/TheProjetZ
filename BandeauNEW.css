@@ -1,0 +1,399 @@
+body
+{
+	background-color: 	 rgb(238,238,238);
+	font-family: Avenir, sans-serif;
+
+	margin: auto;
+	padding: auto;
+}
+
+
+#bandeau
+{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	background-color: var(--BandeauCouleur);
+	
+	
+
+}
+
+
+#BlocMatire
+{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 20px;
+	
+    
+}
+
+#BlocMatire div
+{
+    margin: auto 10px;
+    
+}
+
+
+#Matière
+{
+	/* height: 70px; */
+	line-height: 33px;
+    margin: auto;
+    border-radius: 80px;
+	font-family: Trebuchet MS;
+	background-color: var(--MatiereCouleur)    ;
+	color: white;
+}
+
+
+#Matière h2
+{
+	margin: 15px 25px;
+	border-radius: 80px;
+	font-family: Trebuchet MS;
+	color: white;
+
+}
+
+
+
+#logo
+{
+	margin: auto 3%;
+	height: 70px;
+    width: 70px;
+    line-height: 0px;
+    
+    background-color: transparent;
+    font-family: Avenir, sans-serif;
+	font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+	border-radius: 	70px;
+	border: white 2px solid;
+	border-top: white 2px solid;
+	border-right: white 2px solid;
+	border-bottom: white 10px solid;
+	border-left: white 8px solid;
+	outline-style: none;
+}
+
+	
+.BoutonleMenu, .BoutonClasse
+{
+	display: flex; 
+  	align-items: center;
+  	justify-content: center; 
+	width: 60px;
+	height: 60px;
+	border-radius: 200px;
+	cursor: pointer;
+	background-size: cover;
+}
+
+
+
+.BoutonleMenu
+{
+	background-color: WHITE;
+	line-height: 100px;
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
+	background-size: cover;
+}
+
+
+.BoutonleMenu:hover
+{
+	transition: 200ms;
+	box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+
+.BoutonClasse
+{
+	background-color: rgba(0,0,0,0.1);
+	background-size: cover;
+	z-index: 2;
+	font-weight: bold;
+	color: white;
+	animation: logos 8s infinite;
+	
+	font-size: 30px;
+}
+
+
+
+
+
+
+#footer
+{
+	animation: example 30s infinite;
+	justify-content: center;
+
+	padding: 30px;
+	background-color: var(--BandeauCouleur);
+	display: flex;
+}
+
+
+
+
+
+#Partenariat, #PartenariatDernier 
+
+{
+	text-decoration: none;
+	color: rgb(238,238,238)  ;
+	padding: 20px;
+	border-right: 0.5px rgb(238,238,238) solid;
+}
+
+
+#PartenariatDernier 
+{
+    border: none;
+}
+
+
+
+
+
+#Sommaire_cours
+{
+	margin: auto;
+	width: 80%;
+	padding: 0px 30px;	
+	background-color: white;
+	border: 3px rgb(230,230,230) solid;
+	margin-bottom: 200px;
+
+	border-radius: 0px 0px 25px 0px ;
+}
+
+
+
+#cours
+{
+	display: flex;
+	width: 80%;
+	margin: 80px auto;
+	cursor: pointer;
+	transition: 200ms;
+	border-radius: 0px  0px 15px 0px  ;
+	border: 3px grey solid;
+
+}
+
+
+
+#image_tema, #image_tema1, #image_tema2 
+{
+	background-color: var(--BandeauCouleur);
+	width: 250px;
+    height: 150px;
+	background-size: cover;
+
+}
+
+#titre_tema
+{
+	transition: 200ms;
+	margin-left: 50px;
+	padding: 20px;
+	width: 60%;
+	color: grey;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cours:hover > #titre_tema
+{
+	transition: 200ms;
+	color: var(--BandeauCouleur);
+}
+
+
+#cours:hover
+{
+	transition: 200ms;
+	border: 3px var(--BandeauCouleur) solid;
+	transform: scale(1.02); 
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@media (max-width: 1100px)
+{
+  
+
+#bandeau
+ {
+	height: 100%;
+    	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+ }   
+
+
+#logo
+{
+	transform: scale(1.7); 
+	margin: 50px;
+	margin-left: 80px;
+}
+    
+    
+#BlocMatire
+{
+	/* background-color: tomato; */
+	display: flex;
+	padding-right: 20px;
+}
+
+
+#Matière
+{
+    margin: auto;
+    border-radius: 80px;
+}
+
+
+#Matière h2
+{
+	margin: 30px 30px;	
+
+	font-family: Trebuchet MS;
+	font-size: 35px;
+	color: white;
+
+}
+
+	
+.BoutonleMenu, .BoutonClasse
+{
+	display: flex; 
+  	align-items: center;
+  	justify-content: center; 
+	width: 90px;
+	height: 90px;
+	border-radius: 200px;
+	cursor: pointer;
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
+	background-size: cover;
+}
+
+
+
+.BoutonleMenu
+{
+	background-color: WHITE;
+	line-height: 100px;
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
+	background-size: cover;
+}
+
+
+.BoutonleMenu:hover
+{
+	transition: 200ms;
+	box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+
+.BoutonClasse
+{
+	background-color: rgba(0,0,0,0.1);
+	background-size: cover;
+	z-index: 2;
+	font-weight: bold;
+	color: white;
+	animation: logos 8s infinite;
+	
+	font-size: 40px;
+}
+
+
+  
+#footer
+{
+	/* animation: example 30s infinite; */
+	justify-content: center;
+	padding: 30px;
+	display: block;
+}
+
+    
+    
+        
+#Partenariat , #PartenariatDernier 
+        
+{  
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	/* background-color: tomato; */
+	text-decoration: none;
+	color: rgb(238,238,238)  ;
+	padding: 20px;
+	border: none;
+	padding: 50px;
+}
+	
+	
+	
+
+	#Sommaire_cours
+	{
+		margin: auto;
+		width: 80%;
+		padding: 0px 50px;	
+		background-color: white;
+		border: 3px rgb(230,230,230) solid;
+		margin-bottom: 200px;
+
+		border-radius: 0px 0px 50px 0px ;
+	}
+
+
+
+	
+	#cours
+	{
+		display: block;
+		width: 750px;
+		border-radius: 0px 0px 40px 0px ;
+		margin-bottom: 150px;
+
+	}
+
+
+
+	#image_tema, #image_tema1, #image_tema2 
+	{
+		width: 750px;
+		height: 450px;
+	}
+
+	#titre_tema
+	{	
+		font-size: 40px;
+	}
+
+
+
+}
