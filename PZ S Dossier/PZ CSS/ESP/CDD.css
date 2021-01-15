@@ -5,7 +5,7 @@
 	--MatiereCouleur: rgb(231,172,0);
 }
 
-/* 
+
 .Image_1
 {
 	height: 358px;
@@ -14,6 +14,7 @@
 
 	margin: 30px;
 	margin-left: 130px;
+	/*margin-right: auto;*/
 
 }
 
@@ -28,10 +29,4 @@
 	margin-left: auto;
 	margin-right: auto;
 
-} */
-
-#Image
-{
-	display: table;
-	margin: 0 auto;
 }
