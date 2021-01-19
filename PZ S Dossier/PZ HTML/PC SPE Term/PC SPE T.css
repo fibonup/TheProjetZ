@@ -1,0 +1,42 @@
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(81,208,215);
+	--MatiereCouleur:  #29afb7;
+}
+
+
+#TitreEnsembleCours
+{
+    color: grey;
+	width: 80%;
+    margin: 80px auto;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 3px grey solid;
+}
+
+#EnoncésTP
+{
+    padding: 10px 30px;
+    color: grey;
+	width: 70%;
+    margin: 80px auto;
+    margin-bottom: -30px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+	border: 1px #CCCCCC solid;
+	border-radius: 50px;
+    transition: 200ms;
+}
+
+#EnoncésTP:hover
+{
+    transition: 200ms;
+    color: var(--BandeauCouleur);
+	border: 1px var(--BandeauCouleur) solid;
+	transform: scale(1.02); 
+}
