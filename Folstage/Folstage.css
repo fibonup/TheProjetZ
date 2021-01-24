@@ -1,0 +1,686 @@
+body
+{
+	margin: auto;
+	padding: auto;
+}
+
+
+
+
+
+#TitreFolkstage
+{
+	display: flex;
+	justify-content: center;	
+	line-height: 150px;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white; 
+	padding: auto;
+	width: 40%;
+	height: 150px;
+	/* background-color: white; */
+	z-index: 1;
+	margin: auto;
+	/* border-right: 5px solid 	#FF5B2B;
+	border-left: 5px solid 	#FF5B2B; */
+
+}
+/* #FF5B2B */
+
+#FolkStageTitreFolkstage
+{
+	/*background-color: pink;*/
+	/*z-index: 1	;*/
+}
+
+
+#LogoTitreFolkstage
+{
+	margin: 10px;
+	/* margin-top: 35px; */
+	width: 80px;
+	height: 80px;
+	background-color: #F26157 ;
+	background-image: url(icons8-fibonacci-circles-80.png);
+}
+
+
+#LogoFolkstage
+{
+	margin: auto 1px;
+	width: 30px;
+	height: 30px;
+	background-size: 100%;
+	background-image: url(icons8-fibonacci-circles-80.png);
+
+	animation: litourné 5s infinite;		
+}
+
+@keyframes litourné 
+{
+  	0%   {transform: rotate(360deg);}
+ 	50% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+#Folkstage
+{
+	padding: 10px;
+	background-color: white ;
+	/* height: 150px; */
+	display: flex;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #FF5B2B;
+	/* justify-content: space-around; */
+	justify-content: center;
+
+	/* background: -webkit-linear-gradient(0deg, #FF5B2B, white);
+    background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent; */
+}
+
+
+#Titre
+{
+	display: flex;
+	background: -webkit-linear-gradient(0deg, #FF5B2B, #fcb5a0);
+    background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent;
+}
+
+/* rgb(95,192,151),  rgba(95,192,151,0) */
+#FondFolkstage
+{
+	/* padding: 10px; */
+	/* background-color: tomato ; */
+	background-image: url("3956943.jpg");
+	/* height: 1100px; */
+	background-size: 100%;
+	background-attachment: fixed;
+	/* border-radius: 0px 0px 300px 0px ; */
+	/* box-shadow: inset -5px -5px 100px #C9F3E5; */
+}
+
+
+#IntroFolkstage
+{
+	width: 50%;
+	padding: 30px;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	
+	/* background: -webkit-linear-gradient(-45deg, #56cfe1, white);
+    background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent; */
+
+
+	/* animation: COLORs 20s infinite;		 */
+}
+
+
+#BlockFolkstage
+{
+	margin-left: auto;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	/* transform: skewY(-2deg); */
+	-webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 200px, black 21px);
+}
+
+
+#BlockFolkstage2
+{
+	width: 100%;
+	/* height: 400px; */
+	background-color: white;
+	/* transform: skewY(-2deg); */
+	/* border-bottom: 2px solid green; */
+	border-radius: 100px 0px 0px 0px;
+	padding-top: 7%;
+}
+
+#ExplicationFolkstage
+{
+	margin: auto;
+	background-color: white;
+	width: 85%;
+	/* height: 300px; */
+	border-radius: 50px;
+	box-shadow: -20px 20px rgba(100, 223, 223,0.5), 10px 10px #80ffdb, -30px -30px rgba(94, 96, 206,0.5);
+	padding: 50px 0px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;	
+	text-align: center;
+}
+
+#ExplicationFolkstage h2
+{
+	width: 90%;
+	margin: auto;
+	background: -webkit-linear-gradient(-45deg, #7400b8, #80ffdb);
+    background-clip:text;
+	-webkit-background-clip:text;
+	color:transparent;
+
+	/* background-color: red; */
+}
+
+#mascara
+{		
+	color: white;
+	/* transform: rotate(-20deg); */
+	/* background-color: yellow; */
+}
+
+
+#CadreServies
+{
+	width: 85%;
+	/* height: 500px; */
+	margin: 100px auto;
+	margin-bottom: 0px;
+	/* background-color:khaki; */
+	justify-content: space-between;
+	display: flex;
+}
+
+
+#Servies1, #Servies2, #Servies3
+{
+	width: 300px;
+	height: 400px;
+	border-radius: 50px;
+	background-color:white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	/* border-bottom: 3px solid #72efdd; */
+	/* border-right: 3px solid #72efdd; */
+	transition: 300ms;
+}
+
+
+#Servies1:hover, #Servies2:hover,#Servies3:hover
+{
+	transform: translate(0px, -20px);
+	transition: 300ms;
+}
+#Servies1:hover{box-shadow: -20px 20px 	rgba(255, 190, 10, 0.7), 10px 10px #FF5B2B	, -30px -30px rgba(251, 84, 7, 0.3);}
+#Servies2:hover{box-shadow: -20px 20px rgba(100, 223, 223,0.5), 10px 10px #80ffdb, -30px -30px rgba(94, 96, 206,0.5);}
+#Servies3:hover{box-shadow: -20px 20px rgba(178, 201, 255, 0.7), 10px 10px #7400b8, -30px -30px rgba(231, 198, 255, 0.7);}
+
+/* #Servies3:hover{box-shadow: -20px 20px rgba(186, 93, 96, 0.5), 10px 10px #7400b8, -30px -30px rgba(152, 47, 142, 0.5);} */
+/* #Servies1:hover{box-shadow: -20px 20px 	rgba(140, 197, 215, 0.9), 10px 10px #FF5B2B	, -30px -30px rgba(255, 219, 140, 0.7);} */
+/* #Servies1:hover{box-shadow: -20px 20px 	rgba(255, 190, 10, 0.7), 10px 10px #FF5B2B	, -30px -30px rgba(255, 204, 63, 0.7);} */
+
+
+#ImageServies1, #ImageServies2, #ImageServies3
+{
+	margin: 30px auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 250px;
+	background-color: rgba(117, 0, 184, 0.301);
+	transition: 300ms;
+	/* background-size: cover; */
+	/* background-size: 100%; */
+	
+}
+
+
+#ImageServies1
+{
+	background-image: url("Cinema.png");
+	box-shadow: 10px 10px #FF5B2B;
+}
+
+#ImageServies2
+{
+	background-image: url("Poésie.png");
+	box-shadow: 10px 10px #80ffdb;
+
+}
+
+#ImageServies3
+{
+	background-image: url("Discours.png");
+	box-shadow: 10px 10px #7400b8;
+}
+
+
+
+
+
+#TitleServies1, #TitleServies2, #TitleServies3
+{
+	padding: 15px 0px;
+	margin: 20px auto;
+	text-align: center;
+	width: 250px;
+	/* height: 50px; */
+	border-radius: 250px;
+	background-color: #80ffdb;
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+
+#TitleServies1
+{
+	background-color: #FF5B2B;
+}
+
+
+
+#TitleServies2
+{
+	background-color: #80ffdb;
+}
+
+
+
+#TitleServies3
+{
+	background-color: #7400b8;
+}
+
+
+#Servies1:hover > #ImageServies1, #Servies2:hover > #ImageServies2, #Servies3:hover > #ImageServies3
+{
+	transform: rotate(10deg);
+	transition: 300ms;
+}
+
+
+
+
+
+
+#CadreBulles
+{
+	width: 85%;
+	margin: 20px auto;
+	margin-bottom: 0px;
+	height: 50px;
+	justify-content: space-between;
+	display: flex;
+	/* background-color: khaki; */
+}
+
+#BlocBulles
+{
+	width: 300px;
+	/* background-color: blueviolet; */
+}
+
+#Bulles1, #Bulles2, #Bulles3
+{
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	transition: 500ms;
+}
+
+#PetiteBulles1, #Bulles1{background-color: #FF5B2B;}
+#PetiteBulles2, #Bulles2{background-color: transparent;}
+#PetiteBulles3, #Bulles3{background-color: transparent;}
+
+
+
+
+#PetiteBulles1, #PetiteBulles2, #PetiteBulles3
+{
+	margin: auto;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	transition: 500ms;
+}
+
+/* 
+
+#PetiteBulles1:hover
+{
+	transform: rotateY(360deg);
+	transition: 300ms
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#couleur
+{
+	/* background: linear-gradient(#e66465, #9198e5); */
+	/* background:-webkit-linear-gradient(20deg, #3f87a6,  #f69d3c);
+    background-clip:text;
+	-webkit-background-clip:text; */
+	/* text-shadow: 1px 1px rgb(95,192,151), -1px -1px rgba(0,0,0,0.1);
+	color: white;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: white; */
+	color: white;
+	
+}
+
+/* #183152 */
+
+#IntroFolkstage sub
+{
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
+#BoiteClasseur
+{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Poemes
+{
+	background-color: #80ffdb;
+	/* padding: 200px; */
+	
+}
+
+
+#SectionPoeme
+{
+	/* background-color: brown; */
+}
+
+
+#TitreSection
+{
+	width: 30%;
+	margin: auto;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	/* background-color: blanchedalmond; */
+	padding: 20px;
+	text-align: center;
+	padding-top: 200px;
+	border-bottom: white 3px dotted;
+}
+
+
+
+
+#ContenuSection
+{
+	/* background-color: brown; */
+	padding-top: 50px;
+	display: flex;
+    flex-wrap: wrap;
+	align-content: flex-start;
+	/* flex-direction: column; */
+	justify-content: center;
+}
+
+
+
+#BoitePoeme
+{
+	margin: 30px;
+	width: 400px;
+	background-color: white;
+	padding: 30px;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border-radius: 50px;
+	text-align: left;
+	display: table;
+	transition: 300ms;
+}
+
+
+#BoitePoeme:hover
+{
+	transform: translate(0px, -20px) ;
+	transition: 300ms;
+}
+
+#PoemeTitle
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+#LittératureService
+{
+	width: 100%;
+	/* display: none; */
+/* background-color: red; */
+}
+
+#IntroLittératureService
+{
+	height: 500px;
+	background-color: #80ffdb;
+	border-radius: 1000% 1000% 0% 0%;
+	/* padding: 200px; */
+	display: flex;
+}
+
+
+
+/* 
+#Boitestylée
+{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+	border-radius: 200% 200% 0% 0%;
+} */
+
+
+
+
+
+
+
+
+
+
+#DiscoursService
+{
+	width: 100%;
+	display: none;
+
+
+}
+
+
+
+#IntroDiscoursService
+{
+	height: 500px;
+	background-color: #7400b8;
+	border-radius: 1000% 200% 0% 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CinemaService
+{
+	width: 100%;
+	display: none;
+}
+
+
+
+#IntroCinemaService
+{
+	height: 500px;
+	background-color:  rgb(255,91,43);
+	border-radius: 200% 1000% 0% 0%;
+}
+
+
+
+
+
+
+#CadreBarreDePrésentation
+{
+	margin: auto;
+	padding: 30px;
+	/* width: %; */
+	margin-bottom: 50px;
+	background-color: rgb(255,91,43);
+	/* border-radius: 3px; */
+}
+
+
+#BarreDePrésentation
+{
+	display: flex;
+}
+
+
+#TexteDePrésentation
+{
+	/*background-color: blue;*/
+	margin-left: 40px;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 50px;
+	color: white;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+
+}
+
+
+#LogoDePrésentation
+{
+	width: 64px;
+	height: 64px;
+	/*background-color: pink;*/
+	margin-bottom: 10px;
+	background-image: url(icons8-président-des-directeurs-64.png);
+	/*transform: rotate(-10deg);*/
+}
+
+#Commentaire
+{
+	/* background-color: brown; */
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	padding: 20px;
+	padding-left: 42px;
+}
+
+
+
+#LesVidéos
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 100px auto;
+	/* background-color: hotpink; */
+}
+
+
+
+
+#CadreVideo
+{
+	width: 300px;
+	/* background-color: khaki; */
+}
+
+
+
+#Video
+{
+	height: 200px;
+	background-color: rgba(255,91,43,0.5);
+	border-radius: 3px;
+
+}
+
+#TexteVideo
+{
+	/* background-color: yellow; */
+	padding: 20px;
+	padding-bottom: 0px;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+}
+
+#legarsidéconne
+{
+	/* background-color: yellow; */
+	padding: 10px 20px;
+	/* padding-top: 10px; */
+	/*font-family: Trebuchet MS;*/
+	font-size: 15px;
+	color: grey;
+	font-family: sans-serif;
+}
+
