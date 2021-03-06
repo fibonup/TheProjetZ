@@ -1,0 +1,36 @@
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(216,118,13);
+	--MatiereCouleur: rgb(201, 110, 14);
+}
+
+#image_tema1
+{
+	background-image: url("../../PZ IMAGES/JC.png");
+}
+
+
+#image_tema2
+{
+	background-image: url("../../PZ IMAGES/GF.png");
+}
+
+#image_tema3
+{
+	background-image: url("../../PZ IMAGES/consumo.jpg");
+}
+
+
+#image_tema4
+{
+	background-image: url("../../PZ IMAGES/Desco.png");
+}
+
+#image_tema5
+{
+	background-image: url("../../PZ IMAGES/ue.png");
+}
+
+
+

@@ -3,8 +3,8 @@
 
 body
 {
-    /* background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg"); */
-	/* background-attachment:fixed; */
+    background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg");
+	background-attachment:fixed;
 }
 
 
@@ -826,7 +826,7 @@ body
     }
     
     
-    #Image_Matiere1, #Image_Matiere2, #Image_Matiere3, #Image_Matiere4, #Image_Matiere5, #Image_Matiere6, #Image_Matiere7, #Image_Matiere8, #Image_Matiere9, #Image_Matiere10 
+    #Image_Matiere1, #Image_Matiere2, #Image_Matiere3, #Image_Matiere4, #Image_Matiere5, #Image_Matiere6, #Image_Matiere7, #Image_Matiere8, #Image_Matiere9, #Image_Matiere10, #Image_Matiere11, #Image_Matiere12 
     {
         width: 510px;
         height: 340px;
