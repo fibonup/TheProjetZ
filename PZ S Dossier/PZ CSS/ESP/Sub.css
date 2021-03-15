@@ -1,4 +1,9 @@
-	
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(254,190,5);
+	--MatiereCouleur: rgb(231,172,0);
+}	
 body
 {
 	font-family: Trebuchet MS/*Avenir, sans-serif*/;
@@ -35,15 +40,6 @@ body
 	
 }
 
-
-@keyframes example 
-{
-  	0%   {background-color:  rgb(81,208,215);}
-  	20%  {background-color:  rgb(135,201,102);}
-  	40%  {background-color:  rgb(209,73,47);}
- 	60%  {background-color:  rgb(254,190,5);}
- 	100% {background-color:  rgb(81,208,215);}
-}
 
 
 

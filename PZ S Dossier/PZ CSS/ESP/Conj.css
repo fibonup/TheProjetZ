@@ -1,3 +1,10 @@
+@import '../../../BandeauNEW.css';
+:root
+{
+	--BandeauCouleur: rgb(254,190,5);
+	--MatiereCouleur: rgb(231,172,0);
+}
+
 body
 {
 	font-family:Avenir, sans-serif  ;
@@ -35,14 +42,6 @@ body
 }
 
 
-@keyframes example 
-{
-  	0%   {background-color:  rgb(81,208,215);}
-  	20%  {background-color:  rgb(135,201,102);}
-  	40%  {background-color:  rgb(209,73,47);}
- 	60%  {background-color:  rgb(254,190,5);}
- 	100% {background-color:  rgb(81,208,215);}
-}
 
 #ensembe_retour_matiere
 {
@@ -447,154 +446,6 @@ body
 	-moz-transform:skew(30deg);
 	-o-transform:skew(30deg);
 	tranform:skew(30deg);
-}
-
-
-#Sommaire_cours 
-{
-	background-color: white/*rgb(238,238,225)*/ ;
-	padding-top: 70px;
-	border: 3px rgb(230,230,230) solid;
-	/*border-radius: 10px ;*/
-
-
-
-
-
-
-	height: 900px;
-	margin-right: 50px;
-	margin-left: 50px;
-
-}
-
-
-
-
-
-
-
-
-
-#Sommaire
-{
-	/*background-color: greenrgb(238,238,225) ;;*/
-	/*padding-top: 80px;*/
-	/*border: 3px rgb(230,230,230) solid;*/
-	/*border-radius: 10px ;*/
-
-
-
-
-	/*margin-left: 30px;*/
-
-	height: 350px;
-	margin-left: 70px;
-	margin-right: 100px;
-
-}
-
-
-
-
-#cours 
-{
-	cursor: pointer;
-	/*border-top: 3px black solid;*/
-	/*border: 2px black solid;*/
-	text-decoration: none;
-	height: 150px;
-	display: flex;
-	border: 3px grey solid;
-	margin-bottom: 50px;
-	/*background-color: rgb(80,180,231);*/
-	border-radius: 0px  0px 15px 0px  ;
-	opacity: 1;
-
-
-}
-
-
-
-
-
-				/*rgb(181,230,29)*/	/*rgb(220,201,116)*/			 /*red*/  
-
-
-
-
-
-#cours:hover h2
-{	
-	
-	color: rgb(254,190,5);
-	/*transition: 0.5s;*/
-}
-									/*BLEU rgb(75,162,234)*/
-
-#cours:hover 
-{	
-	border: 3px rgb(254,190,5) solid;
-}
-
-
-
-
-
-
-.image_tema
-{
-	height: 150px;
-	width: 250px;
-	background-color: orange;
-	/*border-radius: 15px  0px 0px 0px  ;*/
-	
-
-}
-
-
-
-
-.titre_tema a 
-{
-	text-decoration: none;
-
-}
-
-.titre_tema h2 
-{
-
-	/*background-color:	rgb(164,140,242)	 /*orange*/  /*rgb(255,210,128)*/;*/
-	/*text-decoration: none !important;*/
-
-	
-	text-decoration: none;
-	width: 550px;
-	/*height: 50px;*/
-
-	font-family: Trebuchet MS;
-	color: grey;
-
-	/*background-color: rgb(255,221,51);  */
-	/*border-radius: 5px ;*/
-
-	/*width: 1000px;*/
-
-	/*padding-bottom: 70px;*/
-	/*padding-top: 70px;*/
-	padding-left: 80px;
-
-	
-	/*margin-right: 50px;*/
-	/*margin-bottom: 50px;*/
-}
-
-
-
-.titre_tema:hover h2
-{
-	color: white;
-	/*transition: 0.3s;*/
 }
 
 
