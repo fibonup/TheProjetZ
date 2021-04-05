@@ -2,7 +2,8 @@ body
 {
 	font-family: Avenir, sans-serif;
 
-	background-color: /*blanc*/ rgb(240,240,240) ;
+	background-color: white;
+	margin: auto;
 }
 
 
@@ -20,7 +21,6 @@ body
 	background-color: orange;
 	padding: 0.5px;
 	display: flex;
-	margin: -1%;
 	border-bottom: 5px orange solid;
 	border-top: 5px orange solid;
 	height: 100px;
@@ -29,37 +29,16 @@ body
 
 }
 
-.PP
+#PP
 {
-	list-style-type: none;
-	align-items: flex-start;
 	margin: auto;
-	font-size: 20px;
+	font-size: 50px;
 	font-family: Trebuchet MS;
-}
-
-.PP a
-{
-	text-decoration: none;
-	/*background-color: rgb(255,226,43);*/
+	font-weight: bold;
 	color: white;
-	padding: 23px;
-	padding-right: 50px;
-	padding-left: 50px;
-
 }
 
-/*.PP:hover a */
-{
-	
-	background-color: /*vert foncé*/ rgb(47,149,74);
-	color: /*vert*/ white;
-	border-bottom: 5px /*vert plus foncé*/ rgb(36,115,57) solid;				/*gold rgb(255,226,43)*/
-	border-top: 5px /*vert plus foncé*/ rgb(36,115,57) solid;	
-	/*transition: 0.1s all;*/
 
-
-}
 
 
 
@@ -76,6 +55,7 @@ body
 	text-align: center;
 	padding: 30px;
 	border-radius: 50px;
+	box-shadow: 0 0 20px rgb(224, 224, 224);
 
 }
 
@@ -89,32 +69,27 @@ body
 
 #classeur
 {
-	/*background-color: red;*/
-	margin: -1%;
-	padding-bottom: 0px;
+	/* background-color: red; */
+	width: 70%;
+	margin: 100px auto;
+
 }
 
 
 
 #titre
 {
-	justify-content: space-around;
-	margin: auto;
-	/*background-color: white;*/		
 	border-bottom: 3px orange solid;
 	border-radius: 2px;
-	height: 30px;
-	width: 1080px;
-	
-	margin-top: 80px;	
-
-}
-
-#titre h2
-{
+	font-size: 50px;
+	font-weight: bold;
+	margin: 40px auto;	
 	color: orange;
 	font-family: Trebuchet MS;
+	text-align: center;
+	padding: 10px;
 }
+
 
 
 
@@ -124,16 +99,12 @@ body
 
 #Sommaire_Matieres
 {
-	justify-content: space-around;
-	/*background-color: green;*/
-	align-items: center;
-	margin-top: 30px;
-	margin-bottom: 100px;
-	margin-right: 100px;
-	margin-left: 100px;
+	/* background-color:  	blanchedalmond; */
 
-	display: flex;
-
+	display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-gap: 60px 0px;
+	justify-content: space-between;
 }
 
 
@@ -156,58 +127,30 @@ body
 {
 	width: 300px;
 	height: 220px;
-	background-color: rgb(255,255,255);
-	
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 20px rgb(224, 224, 224);
 	text-align: center;
 	/*border-bottom: 3px rgb(238,238,238) solid;
 	border-right: 3px rgb(238,238,238) solid; */
 	border-radius: 50px;
 	cursor: pointer;
-	
+	transition: 200ms;
 
 }
 
 
 
 
-.Matieres a
-{
-	color: black;
-	text-decoration: none;
 
-
-}
-
-.Matieres h3
-{
-
-
-	padding-top: 50px;
-	padding-bottom:25px;
-	padding-top: 5px;
-	margin-bottom: 50px;
-	
-}
 
 .Matieres:hover
 {
 
-	/*border-bottom: 3px orange solid; 
-	border-right: 3px orange solid;*/
-	/*transition: 300ms;*/
-	animation: example_____ 1s infinite ;
-	/*box-shadow: 5px 5px orange ;*/
-
+	transition: 200ms;
+	transform: scale(1.1); 
 }
 
 
-@keyframes example_____ 
-{
-  	0%  {box-shadow: 0px 0px orange       ;}
-  	50%  {box-shadow: 7px 7px orange ;}
-  	100%  {box-shadow: 0px 0px orange ;}
-  	
-}
 
 
 
@@ -238,15 +181,22 @@ body
 }
 
 
+#MatiereImage
+{
+	background-color:teal;
+	line-height: 110px;
+
+}
+
 
 
 #footer
 {
+	margin-top: 200px;
 	background-color: orange;
 	padding: 20px;
 
 	display: flex;
-	margin: -1%;
 	border-bottom: 5px orange solid;
 	border-top: 5px orange solid;
 	padding-left: 50px;
@@ -256,18 +206,3 @@ body
 
 
 
-.P/*:nth-child(1)*/ a
-
-{
- 
-
-	text-decoration: none;
-	/*background-color: rgb(255,226,43);*/
-	color: rgb(238,238,238)  ;
-	padding: 20px;
-	padding-right: 25px;
-	padding-left: 25px;
-	padding-bottom: 24px;
-	padding-top:23px;
-	border-right: 1px rgb(238,238,238) solid;
-}
