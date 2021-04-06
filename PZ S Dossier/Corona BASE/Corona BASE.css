@@ -6,8 +6,46 @@ body
 	margin: auto;
 }
 
+#surlimage, #surlimagetext
+{
+	/* border: 2px solid red; */
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#surlimagetext:after
+{
+	content: attr(letext);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 30px;
+	background-color: rgba(0, 0, 0, 0.308);
+	width: 240px;
+	height: 160px;
+	border-radius: 50px;
+	opacity: 0;
+	transition: 200ms;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+#surlimagetext:hover:after
+{
+	transition: 200ms;
+	opacity: 1;
+}
 
 
+#limage
+{
+	border-radius: 50%;
+}
+
+#limagecasey
+{
+	border-radius: 50px;
+}
 
 											/*BOUTON PRINCIPAL*/
 
@@ -103,7 +141,7 @@ body
 
 	display: grid;
     grid-template-columns:  auto auto auto;
-    grid-gap: 60px 0px;
+    grid-gap: 60px 60px;
 	justify-content: space-between;
 }
 
@@ -135,9 +173,8 @@ body
 	border-radius: 50px;
 	cursor: pointer;
 	transition: 200ms;
-
+	display: table;
 }
-
 
 
 
