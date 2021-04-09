@@ -77,6 +77,15 @@
 	background-image: url("../../PZ IMAGES/méthodologie.png")
 }
 
+#ImageGeneracion
+{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: rgb(222,88,51);
+	background-image: url("../../PZ IMAGES/generacion.png")
+}
+
 #TexteMetodología
 {
 	width: 50%;
