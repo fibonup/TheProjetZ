@@ -11,6 +11,7 @@
     color: grey;
 	width: 80%;
     margin: 80px auto;
+    margin-bottom: -40px;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,18 +20,19 @@
 
 #EnoncésTP
 {
-    padding: 10px 30px;
-    color: grey;
-	width: 70%;
-    margin: 80px auto;
-    margin-bottom: -30px;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* padding: 10px 30px; */
+    
+	width: 78%;
+    margin: 50px auto;
+    padding: 10px;
 
 	border: 1px #CCCCCC solid;
 	border-radius: 50px;
     transition: 200ms;
+
+    display: flex;
+    justify-content:space-between;
+
 }
 
 #EnoncésTP:hover
@@ -39,4 +41,88 @@
     color: var(--BandeauCouleur);
 	border: 1px var(--BandeauCouleur) solid;
 	transform: scale(1.02); 
+}
+
+#EnoncésTP:hover > #TitresTP
+{
+    color: var(--BandeauCouleur);
+    transition: 200ms;
+
+}
+
+
+#TitresTP
+{
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: auto 15px;
+    transition: 200ms;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: red; */
+}
+
+#cadreEC
+{
+    display: flex;
+
+}
+
+
+#Enonce
+{
+    border: 1px #1f4df7 solid;
+    padding: 10px 30px;
+	border-radius: 50px;
+    margin: auto 15px;
+    transition: 200ms;
+    color: #1f4df7;
+    cursor: pointer;
+}
+
+#Enonce:hover
+{
+    background-color: rgba(31, 78, 247, 0.2);
+    transition: 200ms;
+}
+
+
+#Correction
+{
+    border: 1px red solid;
+    padding: 10px 30px;
+	border-radius: 50px;
+    margin: auto 15px;
+    color: red;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#Correction:hover
+{
+    background-color: rgba(255, 0, 0, 0.2);
+    transition: 200ms;
+}
+
+
+#image_tema1
+{
+	background-image: url("sky.jpg");
+}
+
+#image_tema2
+{
+	background-image: url("rock-wall.jpg");
+}
+
+#image_tema3
+{
+	background-image: url("dandelion.jpg");
+}
+
+#image_tema4
+{
+	background-image: url("bacteria.jpg");
 }

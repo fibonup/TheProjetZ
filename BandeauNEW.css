@@ -277,7 +277,7 @@ body
 	cursor: pointer;
 	transition: 200ms;
 	border-radius: 0px  0px 15px 0px  ;
-	border: 3px grey solid;
+	border: 2px grey solid;
 
 }
 
@@ -314,7 +314,7 @@ body
 #cours:hover
 {
 	transition: 200ms;
-	border: 3px var(--BandeauCouleur) solid;
+	border: 2px var(--BandeauCouleur) solid;
 	transform: scale(1.02); 
 }
 

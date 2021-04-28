@@ -14,8 +14,6 @@ body
 
 
 
-
-
 #bandeau
 {
 	animation: example 30s infinite;
@@ -413,6 +411,44 @@ body
 	
 }
 
+
+
+
+
+
+
+
+
+
+#surlimagetext
+{
+	/* content: attr(letext); */
+	position: absolute;
+	border-radius: 50px;
+	top: -15px;
+	left: -15px;
+	padding: 3px 7px;
+	background-color: rgba(237, 73, 86);
+	font-weight:580;
+	font-size: 17px;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	border-right: 3px white solid;
+	border-bottom: 3px white solid;
+	transform: rotate(-15deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
 #Matieres
 {
 	width: 300px;
@@ -426,6 +462,8 @@ body
 	
 	box-shadow: inset 0 0 1em transparent, 0 0 1em   rgb(230,230,230);
 	transition: 200ms;
+
+	position: relative;
 }
 
 #Matieres:hover
@@ -467,6 +505,8 @@ body
 	font-family: Trebuchet MS;
 
 	line-height: 30px;
+
+	z-index: 1;
 }
 
 
