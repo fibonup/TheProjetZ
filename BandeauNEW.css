@@ -995,13 +995,13 @@ body
 		border: none;
 		/* padding: 0px 20px; */
 		
-		background-color:violet;
+		/* background-color:violet; */
 
 	}
 
 
 
-	#image_tema, #image_tema1, #image_tema2, #image_tema3, #image_tema4, #image_tema5, #image_tema6
+	/* #image_tema, #image_tema1, #image_tema2, #image_tema3, #image_tema4, #image_tema5, #image_tema6 */
 	{
 		/* width: 750px;
 		height: 450px; */
@@ -1010,19 +1010,19 @@ body
 		height: 600px;
 	}
 
-	#noimage_tema   
+	#image_tema, #image_tema1, #image_tema2, #image_tema3, #image_tema4, #image_tema5, #image_tema6, #noimage_tema   
 	{
-		background-size: 100%;
-		width: 400px;
-		height: 200px;
+		/* background-size: 100%; */
+		width: 350px;
+		height: 230px;
 	}
 
 	#titre_tema
 	{	
 		font-size: 40px;
-		background-color: tomato;
+		/* background-color: tomato; */
 		margin: 0px auto;
-		width: 95%;
+		/* width: 95%; */
 		padding: 15px 20px;
 		font-weight: initial;
 	}
