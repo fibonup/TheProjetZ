@@ -626,7 +626,12 @@ body
 
 
 
-
+	#surlimagetext
+	{
+		padding: 15px 15px;
+		font-size: 30px;
+	
+	}
 
 
 
@@ -868,11 +873,13 @@ body
     
     #Image_Matiere1, #Image_Matiere2, #Image_Matiere3, #Image_Matiere4, #Image_Matiere5, #Image_Matiere6, #Image_Matiere7, #Image_Matiere8, #Image_Matiere9, #Image_Matiere10, #Image_Matiere11, #Image_Matiere12 
     {
-        width: 510px;
-        height: 340px;
-        margin: 7% auto;
+        /* width: 510px;
+        height: 340px; */
+		width: 560px;
+        height: 373px;
+        margin: 20px auto;
         /* background-color: wheat; */
-        border-radius: 50px;
+        border-radius: 75px;
         background-size: cover;
     }
 

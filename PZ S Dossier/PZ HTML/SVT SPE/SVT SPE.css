@@ -126,3 +126,102 @@
 {
 	background-image: url("bacteria.jpg");
 }
+
+
+
+
+@media (max-width: 1000px)
+{
+
+    
+#TitreEnsembleCours
+{
+    color: grey;
+	width: 95%;
+    margin: 80px auto;
+    margin-bottom: -40px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 5px grey solid;
+}
+
+#EnoncésTP
+{
+    /* padding: 10px 30px; */
+    
+	width: 78%;
+    margin: 50px auto;
+    padding: 10px;
+
+	border: 1px #CCCCCC solid;
+	border-radius: 50px;
+    transition: 200ms;
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#EnoncésTP:hover
+{
+    transition: 200ms;
+    color: var(--BandeauCouleur);
+	border: 1px var(--BandeauCouleur) solid;
+	transform: scale(1.02); 
+}
+
+#EnoncésTP:hover > #TitresTP
+{
+    color: var(--BandeauCouleur);
+    transition: 200ms;
+
+}
+
+
+#TitresTP
+{
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: auto 15px;
+    transition: 200ms;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: red; */
+}
+
+#cadreEC
+{
+    display: flex;
+
+}
+
+
+#Enonce
+{
+    border: 1px #1f4df7 solid;
+    padding: 10px 30px;
+	border-radius: 50px;
+    margin: auto 15px;
+    transition: 200ms;
+    color: #1f4df7;
+    cursor: pointer;
+}
+
+
+#Correction
+{
+    border: 1px red solid;
+    padding: 10px 30px;
+	border-radius: 50px;
+    margin: auto 15px;
+    color: red;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+
+}
