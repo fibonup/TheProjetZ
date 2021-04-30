@@ -987,13 +987,15 @@ body
 
 	#cours
 	{
-		display: block;
-		width: 100%;
-		border-radius: 0px 0px 40px 0px ;
+		display: flex;
+		width: 97%;
+		/* height: 300px; */
+		border-radius: 0px ;
 		margin-bottom: 150px;
 		border: none;
-
-		background-color: white;
+		/* padding: 0px 20px; */
+		
+		background-color:violet;
 
 	}
 
@@ -1011,19 +1013,18 @@ body
 	#noimage_tema   
 	{
 		background-size: 100%;
-		width: 100%;
+		width: 400px;
 		height: 200px;
 	}
 
 	#titre_tema
 	{	
 		font-size: 40px;
-		/* background-color: tomato; */
-		margin: auto;
+		background-color: tomato;
+		margin: 0px auto;
 		width: 95%;
 		padding: 15px 20px;
-		font-weight: bold;
-
+		font-weight: initial;
 	}
 
 	
