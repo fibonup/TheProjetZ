@@ -420,27 +420,6 @@ body
 
 
 
-#surlimagetext
-{
-	/* content: attr(letext); */
-	position: absolute;
-	border-radius: 50px;
-	top: -15px;
-	left: -15px;
-	padding: 3px 7px;
-	background-color: rgba(237, 73, 86);
-	font-weight:580;
-	font-size: 17px;
-	color: white;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	border-right: 3px white solid;
-	border-bottom: 3px white solid;
-	transform: rotate(-15deg);
-
-}
-
-
-
 
 
 
@@ -626,7 +605,7 @@ body
 
 
 
-	#surlimagetext
+	#surlimagetext_Matiere, #surlimagetext_Cours, #surlimagetext
 	{
 		padding: 15px 15px;
 		font-size: 30px;
