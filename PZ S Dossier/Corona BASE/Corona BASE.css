@@ -108,20 +108,18 @@ body
 #classeur
 {
 	/* background-color: red; */
-	width: 70%;
-	margin: 100px auto;
-
+	margin: 200px auto;
+	width: 75%;
 }
 
 
 
 #titre
 {
-	border-bottom: 3px orange solid;
 	border-radius: 2px;
 	font-size: 50px;
 	font-weight: bold;
-	margin: 40px auto;	
+	margin: auto;	
 	color: orange;
 	font-family: Trebuchet MS;
 	text-align: center;
@@ -138,13 +136,17 @@ body
 #Sommaire_Matieres
 {
 	/* background-color:  	blanchedalmond; */
+	/* width: 70%; */
 
 	display: grid;
     grid-template-columns:  auto auto auto;
     grid-gap: 60px 60px;
-	justify-content: space-between;
+	justify-content: center;
+	border: 3px rgb(255, 196, 0) solid;
+	padding: 80px;
+	border-radius: 80px;
+	box-shadow: 20px 20px rgb(255, 196, 0);
 }
-
 
 
 .Matiere_fantome
