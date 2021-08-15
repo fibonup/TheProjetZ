@@ -1,0 +1,158 @@
+body
+{
+	
+	margin: auto;
+	display: flex;
+}
+
+
+
+#zoom
+{
+	width: 52%;
+	background-color: rgb(45,140,255);
+	margin: -1%;
+}
+
+
+
+
+#Blackboard
+{
+	width: 52%;
+	background-color: rgb(38,38,38);
+	margin: -1%;
+}
+
+
+
+
+#titre
+{
+
+	
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin-top: 50px;
+	
+		
+}
+
+
+#cadre_liens1
+{
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	height: 800px;
+	/*width: 50%;*/
+	text-align: center;
+	padding: 30px;
+	font-family: Avenir, sans-serif;
+	/*font-size: 20px;*/
+	/*background-color: red;	*/
+}
+
+
+
+#cadre_liens
+{
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	height: 800px;
+	/*width: 50%;*/
+	text-align: center;
+	padding: 30px;
+	font-family: Avenir, sans-serif;
+	/*font-size: 20px;*/
+	/*background-color: red;	*/
+}
+
+liens1
+{
+	margin: auto;
+	cursor: pointer;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	height: 60px;
+	width: 500px;
+	text-align: center;
+	/*padding-top: 5px;*/
+	/*background-color: grey;*/
+	border: white 1px solid;
+	color: white;
+	/*font-size: 20px;*/
+	border-radius: 3px;
+}
+
+
+
+.liens1 h3
+{
+	margin-top: 16px;
+	font-size: 20px
+}
+
+
+.liens1:hover
+{
+	background-color: white;
+	color: rgb(45,140,255);
+	transition: 0.3s;
+}
+
+.liens
+{
+	margin: auto;
+	cursor: pointer;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 50px;
+	height: 60px;
+	width: 500px;
+	text-align: center;
+	/*padding-top: 5px;*/
+	/*background-color: grey;*/
+	border: white 1px solid;
+	color: white;
+	/*font-size: 20px;*/
+	border-radius: 3px;
+}
+
+
+
+.liens h3
+{
+	margin-top: 16px;
+	font-size: 20px
+}
+
+
+.liens:hover
+{
+	background-color: white;
+	color: rgb(38,38,38);
+	transition: 0.3s;
+}
+
+
+.name
+{
+	margin: auto;
+	/*justify-content: space-around;*/
+	/*align-items: center;*/
+	margin-top: 50px;
+	height: 30px;
+	width: 500px;
+	/*text-align: center;*/
+	/*padding-top: 5px;*/
+	/*background-color: grey;*/
+	border-bottom: rgb(197,111,213) 2px solid;
+	color: white;
+}

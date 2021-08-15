@@ -1,0 +1,717 @@
+body
+{
+	font-family: Avenir, sans-serif;
+
+	background-color: white;
+	margin: auto;
+}
+
+#surlimage, #surlimagetext
+{
+	/* border: 2px solid red; */
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#surlimagetext:after
+{
+	content: attr(letext);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 30px;
+	background-color: rgba(0, 0, 0, 0.308);
+	width: 240px;
+	height: 160px;
+	border-radius: 50px;
+	opacity: 0;
+	transition: 200ms;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+#surlimagetext:hover:after
+{
+	transition: 200ms;
+	opacity: 1;
+}
+
+
+#limage
+{
+	border-radius: 50%;
+}
+
+#limagecasey
+{
+	border-radius: 50px;
+}
+
+											/*BOUTON PRINCIPAL*/
+
+
+
+
+
+
+#bandeau
+{
+	background-color: orange;
+	padding: 0.5px;
+	display: flex;
+	border-bottom: 5px orange solid;
+	border-top: 5px orange solid;
+	height: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+
+#PP
+{
+	margin: auto;
+	font-size: 50px;
+	/* font-family: Trebuchet MS; */
+	font-weight: bold;
+	color: white;
+}
+
+
+
+
+
+
+#préambule
+{
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	/*display: flex;*/
+	background-color: white;
+	height: 120px;
+	width: 1000px;
+	text-align: center;
+	padding: 30px;
+	border-radius: 50px;
+	box-shadow: 0 0 20px rgb(224, 224, 224);
+
+}
+
+#préambule h2
+{
+	color: orange;
+}
+
+
+
+
+#classeur
+{
+	/* background-color: red; */
+	margin: 200px auto;
+	width: 75%;
+}
+
+
+
+#titre
+{
+	border-radius: 2px;
+	font-size: 50px;
+	font-weight: bold;
+	margin: auto;	
+	color: orange;
+	font-family: Trebuchet MS;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+#Sommaire_Matieres
+{
+	/* background-color:  	blanchedalmond; */
+	/* width: 70%; */
+
+	display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-gap: 60px 60px;
+	justify-content: center;
+	border: 3px rgb(255, 196, 0) solid;
+	padding: 80px;
+	border-radius: 80px;
+	box-shadow: 20px 20px rgb(255, 196, 0);
+}
+
+
+.Matiere_fantome
+{
+	width: 300px;
+	height: 220px;
+	
+	
+	
+	
+
+}
+
+
+
+
+.Matieres
+{
+	width: 300px;
+	height: 220px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 20px rgb(224, 224, 224);
+	text-align: center;
+	/*border-bottom: 3px rgb(238,238,238) solid;
+	border-right: 3px rgb(238,238,238) solid; */
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 200ms;
+	display: table;
+}
+
+
+
+
+
+.Matieres:hover
+{
+
+	transition: 200ms;
+	transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+.Matieres1
+{
+	width: 300px;
+	height: 220px;
+	background-color: rgb(0,92,169);
+	
+	text-align: center;
+	border-bottom: 3px rgb(0,92,169) solid;
+	border-right: 3px rgb(0,92,169) solid; 
+	border-radius: 50px;
+	cursor: pointer;
+	
+
+}
+
+
+.Matieres1:hover
+{
+
+	border-bottom: 3px rgb(0,61,111) solid; 
+	border-right: 3px rgb(0,61,111) solid;
+	transition: 0.5s;
+}
+
+
+#MatiereImage
+{
+	background-color:teal;
+	line-height: 110px;
+
+}
+
+
+
+#footer
+{
+	/* margin-top: 10px; */
+	background-color: orange;
+	padding: 20px;
+	border-top: solid 10px rgba(0, 0, 0, 0.158);
+
+	display: flex;
+	/* border-bottom: 5px orange solid;
+	border-top: 5px orange solid; */
+	padding-left: 50px;
+}
+
+
+
+
+
+
+/* ________________________________________________________________________________________________________________________________ */
+
+
+
+#Boite
+{
+	background-color: rgb(132,34,34);
+	/* background-color: red; */
+	/* margin-top:  50px; */
+	padding: 20px;
+	padding-top: 70px;
+	/* width: 100%;
+	bottom: 10px;
+	position:fixed; */
+}
+
+
+
+#Boite_Titre
+{
+	border-radius: 2px;
+	font-size: 50px;
+	font-weight: bold;
+	margin: auto;	
+	color: orange;
+	font-family: Trebuchet MS;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+#Boite_Cadre
+{
+	margin: auto;
+	background-color:  	rgba(0, 0, 0, 0.2);
+	width: 55%;
+	display: flex;
+	/* display: grid; */
+    /* grid-template-columns:  auto ; */
+    /* grid-gap: 20px 20px; */
+	justify-content: center;
+	/* border: 3px rgb(155, 153, 147) solid; */
+	/* padding: 10px; */
+	border-radius: 20px;
+	/* box-shadow: 20px 20px rgb(255, 196, 0); */
+
+	
+}
+
+
+
+#Element
+{
+	width: 60px;
+	height: 60px;
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: 0 0 20px rgb(224, 224, 224); */
+	text-align: center;
+	/*border-bottom: 3px rgb(238,238,238) solid;
+	border-right: 3px rgb(238,238,238) solid; */
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 400ms;
+	display: table;
+	margin: 10px;
+}
+
+
+
+
+
+#Element:hover
+{
+
+	transition: 300ms;
+	transform: translateY(-5px) rotateZ(3deg);
+
+}
+
+
+#Element_Picture
+{
+	/* border: 2px solid red; */
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#THeTitleElement
+{
+	height: 35px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 5px;
+	border-radius: 50px;
+	background-color: rgba(0, 0, 0, 0.226);
+    display: flex;
+}
+
+#TitleElement
+{
+    margin: auto;
+    transition: 200ms;
+ 	font-weight: bold;
+    font-size: 25px;
+	color: #b8e6c4e1;
+	color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+
+
+
+
+#SurCadreLiens
+{
+	/* margin-top: 100px; */
+	background-color: #00a82d;
+	padding: 90px;
+	/* padding-top: 90px; */
+	border-top: solid 10px rgba(0, 0, 0, 0.342);
+
+}
+
+
+#THeTitleElement
+{
+	height: 35px;
+    width: 80%;
+    margin: 15px auto;
+	/* background-color:teal; */
+	display: flex;
+}
+
+#TitleElement
+{
+    margin: auto;
+    transition: 200ms;
+ 	font-weight: bold;
+    font-size: 40px;
+	color: #b8e6c4e1;
+	color: rgba(255, 255, 255, 0.904);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#CadreLiens
+{
+	width: 80%;
+	/* background-color: blanchedalmond; */
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+#BlockLiens
+{
+	width: 30%;
+	box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.199);
+	background-color: rgba(255, 255, 255, 0.247);
+	border-radius: 20px;
+}
+
+#ElementLien
+{
+	width: 80%;
+    margin: 30px auto;
+    padding: 5px;
+	/* padding-left: 15px; */
+	border-radius: 50px;
+    transition: 300ms;
+	background-color: rgb(246, 246, 246);
+    display: flex;
+    /* justify-content:space-between; */
+	cursor: pointer;
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.199);
+	
+	
+}
+
+#ElementLien:hover
+{
+    transition: 200ms;
+	box-shadow: 15px 15px rgba(0, 0, 0, 0.199);
+	transform: translateY(-3px) translate(-3px);
+}
+
+#PictureLien
+{
+	margin-left: 10px;
+}
+
+#PictureLienusual
+{
+	margin-left: 2px;
+	width: 30px;
+	height: 30px;
+	/* border: solid grey 2px; */
+	border-radius: 50%;
+	/* background-color: rgb(132,34,34); */
+	background-color: #00a82d;
+}
+
+
+
+#TitleLien
+{
+	color: rgba(0, 0, 0, 0.678);
+    /* font-weight: bold; */
+    /* font-size: 30px; */
+    /* padding-left: 10px; */
+    margin: auto;
+    transition: 200ms;
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: brown; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#SurBoite2
+{
+	background-color: rgb(132,34,34);
+	/* margin-bottom: 10px; */
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	padding-bottom: 100px;
+	border-bottom: solid 10px rgba(0, 0, 0, 0.158);
+}
+
+#Boite2
+{
+	background-color: brown;
+	display: flex;
+	width: 50%;
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 0px 20px 50px rgb(132,34,34);
+	/* border: 8px solid rgb(132,34,34); */
+}
+
+
+
+#Boite_Titre2
+{
+	border-radius: 2px;
+	font-size: 50px;
+	font-weight: bold;
+	/* margin: auto;	 */
+	color: orange;
+	font-family: Trebuchet MS;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+#Boite_Cadre2
+{
+	margin: auto;
+	background-color:  	rgba(0, 0, 0, 0.2);
+	width: 60px;
+	/* display: flex; */
+	display: grid;
+    grid-template-columns:  auto ;
+    grid-gap: 20px 20px;
+	justify-content: center;
+	/* border: 3px rgb(155, 153, 147) solid; */
+	padding: 10px;
+	border-radius: 20px;
+	/* box-shadow: 20px 20px rgb(255, 196, 0); */
+
+}
+
+
+
+#Element2
+{
+	width: 60px;
+	height: 60px;
+	background-color: rgb(255, 255, 255);
+	/* box-shadow: 0 0 20px rgb(224, 224, 224); */
+	text-align: center;
+	/*border-bottom: 3px rgb(238,238,238) solid;
+	border-right: 3px rgb(238,238,238) solid; */
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 400ms;
+	display: table;
+	/* margin: 10px; */
+}
+
+
+
+
+
+#Element2:hover
+{
+
+	transition: 300ms;
+	transform: translateX(-5px) rotateZ(5deg);
+
+}
+
+
+#Element_Picture2
+{
+	/* border: 2px solid red; */
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#barre
+{
+	width: 60px;
+	height: 6px;
+	background-color:  	rgba(0, 0, 0, 0.2);
+	/* background-color: rgb(255, 255, 255); */
+	border-radius: 15px;
+}
+
+#Boule
+{
+	margin: auto;
+	background-color:  	rgba(0, 0, 0, 0.2);
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+
+}
